@@ -7,7 +7,7 @@ print(f"Faturamento: {faturamento}, Custo: {custo}, Lucro: {lucro}")
 
 '''
 Concatenations
-# caution error-> print("Faturamento: "+ faturamento); # throws runtime error because faturamento is int
+# caution error-> print("Faturamento: "+ faturamento) # throws runtime error because faturamento is int
 # Solution for case what you want to concatenate string with integer using str()
 '''
 print("Faturamento: " + str(faturamento))  # converter int para str
@@ -23,10 +23,10 @@ print( email.lower()   )
 
 # find position of @ returns position(int) of @ in string
 print( email.find("@") ) 
-posicao_arroba = email.find("@");
+posicao_arroba = email.find("@")
 
 # 11: 11:14 :11
-print(email[posicao_arroba]); 
+print(email[posicao_arroba])
 
 # find position of . returns position(int) of . in string
 print("A posição do @ é:", posicao_arroba)
